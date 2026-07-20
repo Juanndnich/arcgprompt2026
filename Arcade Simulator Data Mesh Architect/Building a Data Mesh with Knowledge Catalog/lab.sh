@@ -3,7 +3,7 @@
 # ==============================================================================
 # Variabel Warna & Format (ArkadeKey Engine)
 # ==============================================================================
-ORANGE_TEXT=$'\033[38;5;214m'  
+ORANGE_TEXT=$'\033[38;5;214m' 
 YELLOW_TEXT=$'\033[0;93m'
 GREEN_TEXT=$'\033[0;92m'
 MAGENTA_TEXT=$'\033[0;95m'
@@ -14,7 +14,12 @@ RESET_FORMAT=$'\033[0m'
 
 clear
 echo "${ORANGE_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
-echo "${ORANGE_TEXT}${BOLD_TEXT}     🛡️ STAGE-BY-STAGE DATA MESH AUTOMATION (FINAL OPTIMIZED)     ${RESET_FORMAT}"
+echo "${ORANGE_TEXT}${BOLD_TEXT}    _    ____          _          _  __          ${RESET_FORMAT}"
+echo "${ORANGE_TEXT}${BOLD_TEXT}   / \  |  _ \ ___ __ _| | _____  | |/ /___ _   _  ${RESET_FORMAT}"
+echo "${ORANGE_TEXT}${BOLD_TEXT}  / _ \ | |_) / __/ _\` | |/ / _ \ | ' // _ \ | | | ${RESET_FORMAT}"
+echo "${ORANGE_TEXT}${BOLD_TEXT} / ___ \|  _ < (_| (_| |   <  __/ | . \  __/ |_| | ${RESET_FORMAT}"
+echo "${ORANGE_TEXT}${BOLD_TEXT}/_/   \_\_| \_\___\__,_|_|\_\___| |_|\_\___|\__, | ${RESET_FORMAT}"
+echo "${ORANGE_TEXT}${BOLD_TEXT}                                          |___/  ${RESET_FORMAT}"
 echo "${ORANGE_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
 echo
 
@@ -161,4 +166,3 @@ echo "${GREEN_TEXT}${BOLD_TEXT} 🎉 [SUKSES TOTAL] SELURUH ALUR DATA MESH BERHA
 echo "${GREEN_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
 echo "${WHITE_TEXT}1. Segarkan (Refresh) menu 'Data profiling & quality' di browser Anda untuk melihat progress.${RESET_FORMAT}"
 echo "${WHITE_TEXT}2. Silakan klik seluruh tombol 'Check my progress' dari Task 1 hingga 5 di Qwiklabs setelah menunggu 1 - 8 menit.${RESET_FORMAT}"
-echo
